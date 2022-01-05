@@ -44,7 +44,7 @@ class MyHomePage extends StatelessWidget {
           ),
           SizedBox(height: 10),
           Container(
-            height: MediaQuery.of(context).size.height * 0.60,
+            height: MediaQuery.of(context).size.height * 0.25,
             child: ListView(
               scrollDirection: Axis.horizontal,
               children: <Widget>[
@@ -83,7 +83,7 @@ class MyHomePage extends StatelessWidget {
           ),
           SizedBox(height: 10),
           Container(
-            height: MediaQuery.of(context).size.height * 0.60,
+            height: MediaQuery.of(context).size.height * 0.25,
             child: ListView(
               scrollDirection: Axis.horizontal,
               children: <Widget>[
@@ -122,7 +122,7 @@ class MyHomePage extends StatelessWidget {
           ),
           SizedBox(height: 10),
           Container(
-            height: MediaQuery.of(context).size.height * 0.60,
+            height: MediaQuery.of(context).size.height * 0.25,
             child: ListView(
               scrollDirection: Axis.horizontal,
               children: <Widget>[
