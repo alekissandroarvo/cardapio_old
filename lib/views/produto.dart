@@ -9,16 +9,19 @@ class Produto extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      child: Column(
-        children: <Widget>[
-          Image.network(
-            imagemProduto!,
-            width: 100,
-            height: 150,
-          ),
-          Text(labelProduto!),
-          Text('R\$ ${price!}'),
-        ],
+      child: Padding(
+        padding: EdgeInsets.all(10),
+        child: Column(
+          children: <Widget>[
+            Image.network(
+              imagemProduto!,
+              width: MediaQuery.of(context).size.height * 0.25,
+              height: MediaQuery.of(context).size.height * 0.35,
+            ),
+            Text(labelProduto!),
+            Text('R\$ ${price!}'),
+          ],
+        ),
       ),
     );
   }
