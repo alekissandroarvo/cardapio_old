@@ -18,7 +18,10 @@ class Produto extends StatelessWidget {
               width: MediaQuery.of(context).size.width * 0.15,
               height: MediaQuery.of(context).size.height * 0.20,
             ),
-            Text(labelProduto!),
+            Text(
+              labelProduto!,
+              style: TextStyle(fontWeight: FontWeight.bold),
+            ),
             Text('R\$ ${price!}'),
           ],
         ),
