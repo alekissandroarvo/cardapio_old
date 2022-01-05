@@ -15,8 +15,8 @@ class Produto extends StatelessWidget {
           children: <Widget>[
             Image.network(
               imagemProduto!,
-              width: MediaQuery.of(context).size.width * 0.25,
-              height: MediaQuery.of(context).size.height * 0.35,
+              width: MediaQuery.of(context).size.width * 0.35,
+              height: MediaQuery.of(context).size.height * 0.45,
             ),
             Text(labelProduto!),
             Text('R\$ ${price!}'),
