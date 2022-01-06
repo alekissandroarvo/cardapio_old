@@ -23,7 +23,7 @@ class SignUp extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.grey[200],
       appBar: AppBar(
-        title: const Text("Ship Race"),
+        title: const Text("Cardápio"),
       ),
       body: Center(
         child: ListView(children: <Widget>[

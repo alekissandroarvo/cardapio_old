@@ -13,7 +13,7 @@ class AdminPage extends StatelessWidget {
       body: ListView(
         children: <Widget>[
           Container(
-            height: 50,
+            height: 100,
             child: ListTile(
               title: Card(
                 child: Text('Cadastrar Usuário'),
@@ -25,7 +25,7 @@ class AdminPage extends StatelessWidget {
             ),
           ),
           Container(
-            height: 50,
+            height: 100,
             child: ListTile(
               title: Card(
                 child: Text('Deletar Usuário'),
@@ -34,7 +34,7 @@ class AdminPage extends StatelessWidget {
             ),
           ),
           Container(
-            height: 50,
+            height: 100,
             child: ListTile(
               title: Card(
                 child: Text('Adicionar produto'),
@@ -43,7 +43,7 @@ class AdminPage extends StatelessWidget {
             ),
           ),
           Container(
-            height: 50,
+            height: 100,
             child: ListTile(
               title: Card(
                 child: Text('Deletar Produto'),
@@ -52,7 +52,7 @@ class AdminPage extends StatelessWidget {
             ),
           ),
           Container(
-            height: 50,
+            height: 100,
             child: ListTile(
               title: Card(
                 child: Text('Editar Produto'),
