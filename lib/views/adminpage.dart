@@ -12,38 +12,53 @@ class AdminPage extends StatelessWidget {
       ),
       body: ListView(
         children: <Widget>[
-          ListTile(
-            title: Card(
-              child: Text('Cadastrar Usuário'),
+          Container(
+            height: 50,
+            child: ListTile(
+              title: Card(
+                child: Text('Cadastrar Usuário'),
+              ),
+              onTap: () {
+                Navigator.of(context)
+                    .push(MaterialPageRoute(builder: (context) => SignUp()));
+              },
             ),
-            onTap: () {
-              Navigator.of(context)
-                  .push(MaterialPageRoute(builder: (context) => SignUp()));
-            },
           ),
-          ListTile(
-            title: Card(
-              child: Text('Deletar Usuário'),
+          Container(
+            height: 50,
+            child: ListTile(
+              title: Card(
+                child: Text('Deletar Usuário'),
+              ),
+              onTap: () {},
             ),
-            onTap: () {},
           ),
-          ListTile(
-            title: Card(
-              child: Text('Adicionar produto'),
+          Container(
+            height: 50,
+            child: ListTile(
+              title: Card(
+                child: Text('Adicionar produto'),
+              ),
+              onTap: () {},
             ),
-            onTap: () {},
           ),
-          ListTile(
-            title: Card(
-              child: Text('Deletar Produto'),
+          Container(
+            height: 50,
+            child: ListTile(
+              title: Card(
+                child: Text('Deletar Produto'),
+              ),
+              onTap: () {},
             ),
-            onTap: () {},
           ),
-          ListTile(
-            title: Card(
-              child: Text('Editar Produto'),
+          Container(
+            height: 50,
+            child: ListTile(
+              title: Card(
+                child: Text('Editar Produto'),
+              ),
+              onTap: () {},
             ),
-            onTap: () {},
           ),
         ],
       ),
