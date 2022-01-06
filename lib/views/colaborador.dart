@@ -1,12 +1,13 @@
+import 'package:flutter/material.dart';
+
 import 'package:alekissandroarvo/views/drawer.dart';
 import 'package:flutter/material.dart';
 import 'produto.dart';
 
-class MyHomePage extends StatelessWidget {
+class Colaborador extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      drawer: MyDrawer(),
       backgroundColor: Colors.orange[100],
       appBar: AppBar(
         // The title text which will be shown on the action bar
@@ -27,35 +28,50 @@ class MyHomePage extends StatelessWidget {
             child: ListView(
               scrollDirection: Axis.horizontal,
               children: <Widget>[
-                ProdutoWid(
-                  imagemProduto:
-                      "https://www.saborbrasil.it/wp-content/uploads/2021/06/Churrasco-de-picanha_sito.jpg",
-                  labelProduto: 'Picanha Grelhada',
-                  price: '35,00',
+                ElevatedButton(
+                  onPressed: () {},
+                  child: ProdutoWid(
+                    imagemProduto:
+                        "https://www.saborbrasil.it/wp-content/uploads/2021/06/Churrasco-de-picanha_sito.jpg",
+                    labelProduto: 'Picanha Grelhada',
+                    price: '35,00',
+                  ),
                 ),
-                ProdutoWid(
-                  imagemProduto:
-                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNNx6QUULaCimmgZZDD7jbIHLIHi94g56_ug&usqp=CAU",
-                  labelProduto: 'Peixe Frito',
-                  price: '25,00',
+                ElevatedButton(
+                  onPressed: () {},
+                  child: ProdutoWid(
+                    imagemProduto:
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNNx6QUULaCimmgZZDD7jbIHLIHi94g56_ug&usqp=CAU",
+                    labelProduto: 'Peixe Frito',
+                    price: '25,00',
+                  ),
                 ),
-                ProdutoWid(
-                  imagemProduto:
-                      "https://static.baratocoletivo.com.br/2018/0508/oferta_15258061216941_OFERTA_CAMARAO.jpg",
-                  labelProduto: 'Camarão à Moda da Casa',
-                  price: '30,00',
+                ElevatedButton(
+                  onPressed: () {},
+                  child: ProdutoWid(
+                    imagemProduto:
+                        "https://static.baratocoletivo.com.br/2018/0508/oferta_15258061216941_OFERTA_CAMARAO.jpg",
+                    labelProduto: 'Camarão à Moda da Casa',
+                    price: '30,00',
+                  ),
                 ),
-                ProdutoWid(
-                  imagemProduto:
-                      "https://www.infoescola.com/wp-content/uploads/2021/10/lagosta-4952603_1920.jpg",
-                  labelProduto: 'Lagosta ao Chefe',
-                  price: '38,00',
+                ElevatedButton(
+                  onPressed: () {},
+                  child: ProdutoWid(
+                    imagemProduto:
+                        "https://www.infoescola.com/wp-content/uploads/2021/10/lagosta-4952603_1920.jpg",
+                    labelProduto: 'Lagosta ao Chefe',
+                    price: '38,00',
+                  ),
                 ),
-                ProdutoWid(
-                  imagemProduto:
-                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZWtYr_h57SjYnlAWGfXuYUDG2Ae7MWF-6pA&usqp=CAU",
-                  labelProduto: 'Frango à Parmegiana',
-                  price: '25,00',
+                ElevatedButton(
+                  onPressed: () {},
+                  child: ProdutoWid(
+                    imagemProduto:
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZWtYr_h57SjYnlAWGfXuYUDG2Ae7MWF-6pA&usqp=CAU",
+                    labelProduto: 'Frango à Parmegiana',
+                    price: '25,00',
+                  ),
                 ),
               ],
             ),
