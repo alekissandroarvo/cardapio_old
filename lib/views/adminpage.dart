@@ -12,51 +12,36 @@ class AdminPage extends StatelessWidget {
       ),
       body: ListView(
         children: <Widget>[
-          Container(
-            height: 100,
+          Card(
             child: ListTile(
-              title: Card(
-                child: Text('Cadastrar Usuário'),
-              ),
+              title: Text('Cadastrar Usuário'),
               onTap: () {
                 Navigator.of(context)
                     .push(MaterialPageRoute(builder: (context) => SignUp()));
               },
             ),
           ),
-          Container(
-            height: 100,
+          Card(
             child: ListTile(
-              title: Card(
-                child: Text('Deletar Usuário'),
-              ),
+              title: Text('Deletar Usuário'),
               onTap: () {},
             ),
           ),
-          Container(
-            height: 100,
+          Card(
             child: ListTile(
-              title: Card(
-                child: Text('Adicionar produto'),
-              ),
+              title: Text('Adicionar produto'),
               onTap: () {},
             ),
           ),
-          Container(
-            height: 100,
+          Card(
             child: ListTile(
-              title: Card(
-                child: Text('Deletar Produto'),
-              ),
+              title: Text('Deletar Produto'),
               onTap: () {},
             ),
           ),
-          Container(
-            height: 100,
+          Card(
             child: ListTile(
-              title: Card(
-                child: Text('Editar Produto'),
-              ),
+              title: Text('Editar Produto'),
               onTap: () {},
             ),
           ),
