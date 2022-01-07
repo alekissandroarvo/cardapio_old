@@ -10,7 +10,7 @@ class AddProduto extends StatelessWidget {
   final TextEditingController typecontroller = TextEditingController();
   final _formKey = GlobalKey<FormState>();
 
-  Produto addproduto = Produto();
+  final Produto addproduto = Produto();
 
   @override
   Widget build(BuildContext context) {
@@ -23,7 +23,7 @@ class AddProduto extends StatelessWidget {
           child: Padding(
             padding: EdgeInsets.all(10),
             child: Form(
-              child: Column(
+              child: ListView(
                 children: <Widget>[
                   SizedBox(
                     height: 20,
@@ -31,7 +31,7 @@ class AddProduto extends StatelessWidget {
                   TextFormField(
                     decoration: const InputDecoration(
                       labelText: 'URL Imagem',
-                      icon: Icon(Icons.email),
+                      icon: Icon(Icons.link),
                       hintText: "http://minhaimagem.com.br/imagem.jpg",
                     ),
                     controller: imagecontroller,
@@ -45,7 +45,7 @@ class AddProduto extends StatelessWidget {
                   TextFormField(
                     decoration: const InputDecoration(
                       labelText: 'Descrição prato, sobremesa, bebida',
-                      icon: Icon(Icons.email),
+                      icon: Icon(Icons.note),
                       hintText: "Picanha grelhada",
                     ),
                     controller: descriptioncontroller,
@@ -59,7 +59,7 @@ class AddProduto extends StatelessWidget {
                   TextFormField(
                     decoration: const InputDecoration(
                       labelText: 'Preço',
-                      icon: Icon(Icons.email),
+                      icon: Icon(Icons.money),
                       hintText: "35.00",
                     ),
                     controller: descriptioncontroller,
@@ -73,7 +73,7 @@ class AddProduto extends StatelessWidget {
                   TextFormField(
                     decoration: const InputDecoration(
                       labelText: 'Tipo do prato',
-                      icon: Icon(Icons.email),
+                      icon: Icon(Icons.icecream),
                       hintText: "Prato, sobremesa, bebida",
                     ),
                     controller: typecontroller,
