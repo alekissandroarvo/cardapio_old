@@ -13,10 +13,13 @@ class ProdutoWid extends StatelessWidget {
         padding: EdgeInsets.all(10),
         child: Column(
           children: <Widget>[
-            Image.network(
-              imagemProduto!,
+            Container(
               width: MediaQuery.of(context).size.width * 0.25,
               height: MediaQuery.of(context).size.height * 0.35,
+              child: Image.network(
+                imagemProduto!,
+                fit: BoxFit.fill,
+              ),
             ),
             Text(
               labelProduto!,
