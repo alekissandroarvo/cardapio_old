@@ -22,8 +22,8 @@ class MyHomePage extends StatelessWidget {
           ),
           SizedBox(height: 10),
           Container(
-            height: MediaQuery.of(context).size.height * 0.45,
-            width: MediaQuery.of(context).size.width * 0.30,
+            height: MediaQuery.of(context).size.height * 0.30,
+            width: MediaQuery.of(context).size.width * 0.25,
             child: ListView(
               scrollDirection: Axis.horizontal,
               children: <Widget>[
@@ -67,8 +67,8 @@ class MyHomePage extends StatelessWidget {
           ),
           SizedBox(height: 10),
           Container(
-            height: MediaQuery.of(context).size.height * 0.45,
-            width: MediaQuery.of(context).size.width * 0.30,
+            height: MediaQuery.of(context).size.height * 0.30,
+            width: MediaQuery.of(context).size.width * 0.25,
             child: ListView(
               scrollDirection: Axis.horizontal,
               children: <Widget>[
@@ -112,8 +112,8 @@ class MyHomePage extends StatelessWidget {
           ),
           SizedBox(height: 10),
           Container(
-            height: MediaQuery.of(context).size.height * 0.45,
-            width: MediaQuery.of(context).size.width * 0.30,
+            height: MediaQuery.of(context).size.height * 0.30,
+            width: MediaQuery.of(context).size.width * 0.25,
             child: ListView(
               scrollDirection: Axis.horizontal,
               children: <Widget>[
@@ -156,8 +156,8 @@ class MyHomePage extends StatelessWidget {
             style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
           ),
           Container(
-            height: MediaQuery.of(context).size.height * 0.45,
-            width: MediaQuery.of(context).size.width * 0.30,
+            height: MediaQuery.of(context).size.height * 0.30,
+            width: MediaQuery.of(context).size.width * 0.25,
             child: ListView(
               scrollDirection: Axis.horizontal,
               children: <Widget>[

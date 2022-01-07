@@ -4,17 +4,19 @@ class Produto {
   String? description;
   String? price;
   String? image;
+  String? type;
 
   CollectionReference produto =
       FirebaseFirestore.instance.collection('produtos');
 
-  Produto({this.description, this.image, this.price});
+  Produto({this.description, this.image, this.price, this.type});
   Future<void> addProduto() {
     // Call the user's CollectionReference to add a new user
     return produto.add({
       'description': description, // John Doe
       'price': price, // Stokes and Sons
-      'age': image // 42
+      'age': image,
+      'type': type,
     });
   }
 

@@ -1,3 +1,4 @@
+import 'package:alekissandroarvo/views/addproduto.dart';
 import 'package:alekissandroarvo/views/signup.dart';
 import 'package:flutter/material.dart';
 
@@ -30,7 +31,11 @@ class AdminPage extends StatelessWidget {
           Card(
             child: ListTile(
               title: Text('Adicionar produto'),
-              onTap: () {},
+              onTap: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute(builder: (context) => AddProduto()),
+                );
+              },
             ),
           ),
           Card(
