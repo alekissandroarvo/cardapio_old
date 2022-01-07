@@ -146,8 +146,7 @@ class SignUp extends StatelessWidget {
                           user.senha = senhaconfcontroller.text;
 
                           try {
-                            UserCredential userCredential = await FirebaseAuth
-                                .instance
+                            await FirebaseAuth.instance
                                 .createUserWithEmailAndPassword(
                                     email: "${user.email}",
                                     password: "${user.senha}");

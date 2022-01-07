@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1076656034930",
+    "project_id": "cardapiodigital-amostra",
+    "storage_bucket": "cardapiodigital-amostra.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076656034930:android:48abda674799bd321b9eeb",
+        "android_client_info": {
+          "package_name": "br.com.alekissandroarvo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076656034930-l8u32erqd4o4ed5o94isl2glfnmqamc9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZpIAexcq_Shc6gU2W1dZLa2KVCvNEbz4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1076656034930-l8u32erqd4o4ed5o94isl2glfnmqamc9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

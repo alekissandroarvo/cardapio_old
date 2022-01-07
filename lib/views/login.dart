@@ -1,4 +1,5 @@
 import 'package:alekissandroarvo/models/usuario.dart';
+import 'package:alekissandroarvo/views/colaborador.dart';
 import 'package:flutter/material.dart';
 import 'homepage.dart';
 
@@ -114,7 +115,7 @@ class Login extends StatelessWidget {
                                 const SnackBar(content: Text('Conectado')),
                               );
                               Navigator.of(context).push(MaterialPageRoute(
-                                  builder: (context) => MyHomePage()));
+                                  builder: (context) => Colaborador()));
                             } on FirebaseAuthException catch (e) {
                               if (e.code == 'user-not-found') {
                                 ScaffoldMessenger.of(context).showSnackBar(
